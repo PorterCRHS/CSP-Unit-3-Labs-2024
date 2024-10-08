@@ -8,14 +8,14 @@ from Lab1 import leapYear
 class TestLab1(unittest.TestCase):
 
     def test_leapYear(self):
-        self.assertEqual(leapYear(2000), True)
-        self.assertEqual(leapYear(2001), False)
-        self.assertEqual(leapYear(1900), False)
-        self.assertEqual(leapYear(2004), True)
-        self.assertEqual(leapYear(2008), True)  
-        self.assertEqual(leapYear(2012), True)
-        self.assertEqual(leapYear(2016), True)
-        self.assertEqual(leapYear(2020), True)
+        self.assertEqual(isLeapYear(2000), True)
+        self.assertEqual(isLeapYear(2001), False)
+        self.assertEqual(isLeapYear(1900), False)
+        self.assertEqual(isLeapYear(2004), True)
+        self.assertEqual(isLeapYear(2008), True)  
+        self.assertEqual(isLeapYear(2012), True)
+        self.assertEqual(isLeapYear(2016), True)
+        self.assertEqual(isLeapYear(2020), True)
         
 
 
