@@ -3,7 +3,7 @@
 This lab was designed to teach you how to use nested ifs. 
 
 ## Lab Description
-Given the taxable income of a single individual, return the amount of federal income tax that the individual owes. 
+Given the taxable income of a single individual, return the amount of federal income tax rounded down to the dollar that the individual owes. 
 
 
 The table below provides the information necessary to calculate the amount of federal income tax owed by a single individual for the year 2015. 
@@ -39,19 +39,19 @@ The table below provides the information necessary to calculate the amount of fe
 
 # Sample Output 
 
-The federal income tax for a taxable income of   $5,000 is 500.0. 
+The federal income tax for a taxable income of   $5,000 is 500. 
 
-The federal income tax for a taxable income of  $20,000 is 2538.75. 
+The federal income tax for a taxable income of  $20,000 is 2538. 
 
-The federal income tax for a taxable income of  $50,000 is 8293.75. 
+The federal income tax for a taxable income of  $50,000 is 8293. 
 
-The federal income tax for a taxable income of $100,000 is 21071.25. 
+The federal income tax for a taxable income of $100,000 is 21071. 
 
-The federal income tax for a taxable income of $400,000 is 112606.22. 
+The federal income tax for a taxable income of $400,000 is 112606. 
 
-The federal income tax for a taxable income of $412,000 is 119576.25. 
+The federal income tax for a taxable income of $412,000 is 119576. 
 
-The federal income tax for a taxable income of $500,000 is 154369.05. 
+The federal income tax for a taxable income of $500,000 is 154369. 
 
  
 
